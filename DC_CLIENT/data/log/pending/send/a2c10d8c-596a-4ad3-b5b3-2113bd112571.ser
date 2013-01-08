@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<auditLog>
+    <appID>ZHENGWUBAN-APP</appID>
+    <auditLogID>a2c10d8c-596a-4ad3-b5b3-2113bd112571</auditLogID>
+    <bizID>gz0211001</bizID>
+    <bizTime>2013-01-07T17:24:48.919+08:00</bizTime>
+    <creationTime>2013-01-07T17:24:48.889+08:00</creationTime>
+    <currentNode>Provider</currentNode>
+    <destinationNode>ZHENGWUBAN</destinationNode>
+    <errorCode>Send</errorCode>
+    <errorMessage>javax.jms.JMSException: User name [clientuser] or password is invalid.</errorMessage>
+    <isRedelivered>false</isRedelivered>
+    <logPhase>Send</logPhase>
+    <logStatus>1</logStatus>
+    <logTime>2013-01-07T17:24:48.919+08:00</logTime>
+    <messageID>eaa22100-ccc2-4506-a7af-15ccf8142e8d</messageID>
+    <messageType>ObjectMessage</messageType>
+    <priority>1</priority>
+    <sourceNode>ZHENGWUBAN</sourceNode>
+    <subjectCode>Accept</subjectCode>
+    <subjectName>受理</subjectName>
+    <version>1</version>
+</auditLog>

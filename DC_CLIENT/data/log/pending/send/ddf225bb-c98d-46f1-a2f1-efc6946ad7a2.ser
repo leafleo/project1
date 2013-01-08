@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<auditLog>
+    <appID>ZHENGWUBAN-APP</appID>
+    <auditLogID>ddf225bb-c98d-46f1-a2f1-efc6946ad7a2</auditLogID>
+    <bizTime>2013-01-07T16:17:30.701+08:00</bizTime>
+    <creationTime>2013-01-07T16:17:30.550+08:00</creationTime>
+    <currentNode>Provider</currentNode>
+    <destinationNode>ZHENGWUBAN</destinationNode>
+    <errorCode>Send</errorCode>
+    <errorMessage>javax.jms.JMSException: Could not connect to broker URL: tcp://172.16.10.86:10240. Reason: java.net.ConnectException: Connection timed out: connect</errorMessage>
+    <isRedelivered>false</isRedelivered>
+    <logPhase>Send</logPhase>
+    <logStatus>1</logStatus>
+    <logTime>2013-01-07T16:17:30.701+08:00</logTime>
+    <messageID>a01c66c8-c76a-47ad-9b98-b70a4f37b740</messageID>
+    <messageType>ObjectMessage</messageType>
+    <priority>1</priority>
+    <sourceNode>ZHENGWUBAN</sourceNode>
+    <subjectCode>Version</subjectCode>
+    <subjectName>委局当前使用版本</subjectName>
+    <version>1</version>
+</auditLog>

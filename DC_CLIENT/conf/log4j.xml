@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd"> 
+<!---->			     
+<log4j:configuration xmlns:log4j='http://jakarta.apache.org/log4j/' debug="false">
+
+	<appender name="CONSOLE" class="org.apache.log4j.ConsoleAppender">
+		<param name="Target" value="System.out" />
+		<param name="Threshold" value="DEBUG" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern"
+				value="%d{yyyy-MM-dd HH:mm:ss,SSS} %-5p [%c{1}] %m%n" />
+		</layout>
+	</appender>
+
+
+	<appender name="RollingFile"
+		class="org.apache.log4j.RollingFileAppender">
+
+		<param name="File" value="${DC_CLIENT}/data/log/client.log" />
+		<param name="Threshold" value="ALL"/>  
+		<param name="MaxFileSize" value="10000KB"/>  
+		<param name="MaxBackupIndex" value="100"/>  
+  
+		<layout class="org.apache.log4j.PatternLayout">  
+		  <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss,SSS} %-5p [%c{1}] %m%n"/>  
+		</layout>  
+
+		
+	
+	</appender>
+
+	<appender name="RollingFile2"
+		class="org.apache.log4j.RollingFileAppender">
+
+		<param name="File" value="${DC_CLIENT}/data/log/audit.log" />
+		<param name="Threshold" value="ALL"/>  
+		<param name="MaxFileSize" value="10000KB"/>  
+		<param name="MaxBackupIndex" value="100"/>  
+	
+		<layout class="org.apache.log4j.PatternLayout">  
+		 <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss,SSS} %-5p [%c{1}] %m%n"/>   
+		</layout>  
+	</appender>
+
+
+
+  <logger name="gov.datacenter.messages.AuditLog">		
+		<appender-ref ref="RollingFile2" />
+ </logger>
+  <root>
+    <level value="INFO" />
+    <appender-ref ref="CONSOLE" />
+    <appender-ref ref="RollingFile" />
+  </root>
+</log4j:configuration>

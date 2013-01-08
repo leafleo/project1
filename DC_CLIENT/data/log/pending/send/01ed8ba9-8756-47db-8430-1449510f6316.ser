@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<auditLog>
+    <appID>ZHENGWUBAN-APP</appID>
+    <auditLogID>01ed8ba9-8756-47db-8430-1449510f6316</auditLogID>
+    <bizID>gz0211001</bizID>
+    <bizTime>2013-01-07T17:24:09.176+08:00</bizTime>
+    <creationTime>2013-01-07T17:24:09.138+08:00</creationTime>
+    <currentNode>Provider</currentNode>
+    <destinationNode>ZHENGWUBAN</destinationNode>
+    <errorCode>Send</errorCode>
+    <errorMessage>javax.jms.JMSException: Could not connect to broker URL: tcp://localhost:66166. Reason: java.lang.IllegalArgumentException: port out of range:66166</errorMessage>
+    <isRedelivered>false</isRedelivered>
+    <logPhase>Send</logPhase>
+    <logStatus>1</logStatus>
+    <logTime>2013-01-07T17:24:09.176+08:00</logTime>
+    <messageID>3c5c63e8-6e0c-4826-856c-bf8b3dbf42c8</messageID>
+    <messageType>ObjectMessage</messageType>
+    <priority>1</priority>
+    <sourceNode>ZHENGWUBAN</sourceNode>
+    <subjectCode>Accept</subjectCode>
+    <subjectName>受理</subjectName>
+    <version>1</version>
+</auditLog>

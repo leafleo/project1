@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+encoding//conf/credentials.properties=UTF-8
+encoding//conf/dc-client.properties=UTF-8
+encoding//conf/dc-nodes.properties=UTF-8
+encoding/<project>=UTF-8

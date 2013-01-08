@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<objectMessage>
+    <appID>ZHENGWUBAN-APP</appID>
+    <bizID>gz0211001</bizID>
+    <bizTime>2013-01-07T17:24:09.176+08:00</bizTime>
+    <creationTime>2013-01-07T17:24:09.138+08:00</creationTime>
+    <destinationNode>ZHENGWUBAN</destinationNode>
+    <groupSeq>0</groupSeq>
+    <isRedelivered>false</isRedelivered>
+    <messageID>3c5c63e8-6e0c-4826-856c-bf8b3dbf42c8</messageID>
+    <messageType>ObjectMessage</messageType>
+    <priority>1</priority>
+    <signType>0</signType>
+    <sourceNode>ZHENGWUBAN</sourceNode>
+    <subjectCode>Accept</subjectCode>
+    <subjectName>受理</subjectName>
+    <version>1</version>
+    <text>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;AceeptOB&gt;
+    &lt;SourceNode&gt;ZHENGWUBAN&lt;/SourceNode&gt;
+    &lt;DestinationNode&gt;ZHENGWUBAN&lt;/DestinationNode&gt;
+    &lt;SerialNO&gt;gz0211001&lt;/SerialNO&gt;
+    &lt;Password&gt;11&lt;/Password&gt;
+    &lt;BSLYY&gt;&lt;/BSLYY&gt;
+    &lt;BYZDA&gt;2|2013-01-07|f0758bf6-d336-410b-b670-bb794b7cac31&lt;/BYZDA&gt;
+    &lt;BYZDB&gt;&lt;/BYZDB&gt;
+    &lt;BYZDC&gt;&lt;/BYZDC&gt;
+    &lt;BYZDD&gt;2013-01-07T17:24:09.072+08:00&lt;/BYZDD&gt;
+    &lt;BZ&gt;0&lt;/BZ&gt;
+    &lt;destinationNode&gt;ZHENGWUBAN&lt;/destinationNode&gt;
+    &lt;FLGDGXD&gt;440000&lt;/FLGDGXD&gt;
+    &lt;FSYWGXD&gt;440000&lt;/FSYWGXD&gt;
+    &lt;GDBLSX&gt;20&lt;/GDBLSX&gt;
+    &lt;GDBLSXDW&gt;G&lt;/GDBLSXDW&gt;
+    &lt;GDSF&gt;0&lt;/GDSF&gt;
+    &lt;HZBH&gt;11&lt;/HZBH&gt;
+    &lt;password&gt;11&lt;/password&gt;
+    &lt;SJBBH&gt;1&lt;/SJBBH&gt;
+    &lt;SLDWCBRGH&gt;&lt;/SLDWCBRGH&gt;
+    &lt;SLDWCBRXM&gt;张晓&lt;/SLDWCBRXM&gt;
+    &lt;SLJGMC&gt;广州市经济贸易委员会&lt;/SLJGMC&gt;
+    &lt;SLJGZZJGDM&gt;007482567&lt;/SLJGZZJGDM&gt;
+    &lt;SLJTDD&gt;&lt;/SLJTDD&gt;
+    &lt;SLSJ&gt;2013-01-07T17:24:09.072+08:00&lt;/SLSJ&gt;
+    &lt;SLYF&gt;0&lt;/SLYF&gt;
+    &lt;SLZLQD&gt;酒类批发许可证申请表（有示范文本）1份 书面申请报告1份营业执照(或企业名称预先核准通知书)（复印件）1份法人代表身份证（复印件，非本地户口的，需提供暂住一年以上的居住证复印件）1份有效期内的食品卫生许可证（复印件，经营范围需注明：批发定型包装食品）或食品流通许可证（复印件）1份注册资金验资证明（复印件，新设立公司凭企业名称预先核准通知书申请的需提供银行进账单复印件，新设立外资企业未验资的，凭《外商企业批准证书》办理）1份经营场所及仓储用地的已备案的租赁合同，自有房产的，提供可用于商业用途的房产证明。（复印件）1份产销双方的协议书或授权书（原件，外文协议书或授权书需提供中文翻译件）1份生产厂家的营业执照、卫生许可证和酒类生产许可证（复印件，加盖生产厂家或提供该材料的经销商印章，如与酒类产品的经销商签订协议的，还需提供经销商的相关证明材料，加盖经销1份代理产品的质量标准1份代理国产酒的，需提供具有法定资质机构出具的当年检验合格报告；（复印件）1份代理进口酒的，需提供出入境检验检疫局出具的当年《卫生证书》（复印件）1份承诺书（有示范文本）1份其他必要材料1份&lt;/SLZLQD&gt;
+    &lt;SPSXMC&gt;酒类批发许可证（核发）&lt;/SPSXMC&gt;
+    &lt;SQDWHSQRXM&gt;广州五粮液&lt;/SQDWHSQRXM&gt;
+    &lt;SQDWJBRSJ&gt;&lt;/SQDWJBRSJ&gt;
+    &lt;SQDWJBRXM&gt;张&lt;/SQDWJBRXM&gt;
+    &lt;SQDWJBRYJ&gt;&lt;/SQDWJBRYJ&gt;
+    &lt;SQDWLXDH&gt;123456789&lt;/SQDWLXDH&gt;
+    &lt;SXBM&gt;CYXK01&lt;/SXBM&gt;
+    &lt;serialNO&gt;gz0211001&lt;/serialNO&gt;
+    &lt;sourceNode&gt;ZHENGWUBAN&lt;/sourceNode&gt;
+    &lt;TJFS&gt;0&lt;/TJFS&gt;
+    &lt;XMMC&gt;广州五粮液__酒类批发许可证（核发）&lt;/XMMC&gt;
+    &lt;YXTYWLSH&gt;11&lt;/YXTYWLSH&gt;
+&lt;/AceeptOB&gt;
+</text>
+</objectMessage>

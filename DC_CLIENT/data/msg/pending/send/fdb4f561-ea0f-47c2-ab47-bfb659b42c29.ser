@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<objectMessage>
+    <appID>ZHENGWUBAN-APP</appID>
+    <bizTime>2013-01-07T17:24:08.983+08:00</bizTime>
+    <creationTime>2013-01-07T17:24:08.383+08:00</creationTime>
+    <destinationNode>ZHENGWUBAN</destinationNode>
+    <groupSeq>0</groupSeq>
+    <isRedelivered>false</isRedelivered>
+    <messageID>fdb4f561-ea0f-47c2-ab47-bfb659b42c29</messageID>
+    <messageType>ObjectMessage</messageType>
+    <priority>1</priority>
+    <signType>0</signType>
+    <sourceNode>ZHENGWUBAN</sourceNode>
+    <subjectCode>Version</subjectCode>
+    <subjectName>委局当前使用版本</subjectName>
+    <version>1</version>
+    <text>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;MQAPIVersion&gt;
+    &lt;DateTime&gt;2013-01-07T17:24:06.495+08:00&lt;/DateTime&gt;
+    &lt;SourceNode&gt;ZHENGWUBAN&lt;/SourceNode&gt;
+    &lt;Type&gt;java&lt;/Type&gt;
+    &lt;Version&gt;1.0.3&lt;/Version&gt;
+&lt;/MQAPIVersion&gt;
+</text>
+</objectMessage>
